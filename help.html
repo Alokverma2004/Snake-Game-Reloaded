@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HELP CENTER</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin:3vh 3vw 3vh 3vw;
+            background-color:rgb(103, 101, 112);
+            
+           
+        } 
+        .about{
+            border: 5px solid rgb(28, 28, 135);
+            border-style: inset;
+            height: 78vh;
+            /* line-height: 3.5vh; */
+            overflow: auto;
+            background: linear-gradient(rgb(92, 192, 250),rgb(244, 70, 70));
+           
+        }
+        h1{
+            text-align: center;
+            color: rgb(8, 8, 123);
+            padding:20px;
+            font-size: 4vw;
+            background-color: transparent; 
+            font-family: 'Baloo 2', cursive;
+        }
+        h4{
+            text-align: center;
+            color: rgb(8, 8, 123);
+            padding:20px;
+            font-size: 3.5vw;
+            background-color: transparent; 
+            font-family: 'Baloo 2', cursive;
+        }
+        h2, h3{
+            font-size: 2vw;
+            color: rgb(113, 8, 8);
+            background-color: transparent; 
+            font-family: 'Baloo 2', cursive;
+        }
+        li{
+            color: black;
+            font-weight: 600;
+            padding: 0px;
+            font-size: 2vw;
+            background-color: transparent;
+            color: rgb(15, 1, 1);
+            font-family: 'Baloo 2', cursive;
+        }
+        ul{
+            background-color: transparent;
+        }
+        li{
+            background-color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="about">
+        <h1>HELP CENTER</h1>
+        <h2>RULES AND INSTRUCTIONS</h2>
+        <ul>
+            <li type="square">If the snake eat itself, the game ends.</li>
+            <li type="square">If the snake collide to the wall, the game ends.</li>
+            <li type="square">As the game progresses, the speed of Snake will increase.</li>
+            <li type="square">If you reverse the speed of snake, the game ends.</li>
+            <li type="square">The size of the snake is three tiles long.</li>
+        </ul>
+        <h3>HELP</h3>
+        <ul>
+            <li>Use the arrow keys to move the snake</li>
+        </ul>
+        <h4>Points covered from given conditions</h4>
+        <h2>Normal mode(7 out of 8)</h2>
+        <ul>
+            <li>Display a grid of dimensions at least 20 x 20.</li>
+            <li>The size of the snake is three tiles long.</li>
+            <li>The Snake travels across the map to eat color blocks. The color blocks must be eaten in the correct sequence as displayed.</li>
+            <li>Implement a suitable scoring system</li>
+            <li>Implement a time system: the game continues as long as there is time on the clock. When completing a sequence of blocks, the player gains time.</li>
+            <li>Make the game mobile responsive</li>
+            <li>Implement a leaderboard system using local storage</li>
+        </ul>
+        <h2>Hacker Mode(4 out of 9)</h2>
+        <ul>
+            <li>If the snake eats itself, the game ends</li>
+            <li>As time progresses, make the snake move faster</li>
+            <li>Implement a pause button.</li>
+            <li>Implement sound on snake-eating word</li>
+           
+        </ul>
+
+    </div>
+</body>
+</html>
